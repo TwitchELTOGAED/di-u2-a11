@@ -5,7 +5,7 @@ export default function AddTodo({ onAddTodo }) {
   return (
     <>
       <input
-        placeholder="Agregar tarea"
+        placeholder="Añadir tarea"
         value={title}
         onChange={e => setTitle(e.target.value)}
       />
