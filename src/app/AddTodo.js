@@ -5,14 +5,14 @@ export default function AddTodo({ onAddTodo }) {
   return (
     <>
       <input
-        placeholder="Añadir tarea"
+        placeholder="Nueva tarea"
         value={title}
         onChange={e => setTitle(e.target.value)}
       />
       <button onClick={() => {
         setTitle('');
         onAddTodo(title);
-      }}>Agregar</button>
+      }}>Añadir</button>
     </>
   )
 }
